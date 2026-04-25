@@ -1,7 +1,11 @@
- # Community Home
+---
+layout: home
+---
+
+# Community Home
 
 Welcome to our community site.
 
 ## Sections
-- [About](about.md)
-- [How to Join](join.md)
+- [About](about.html)
+- [How to Join](join.html)
