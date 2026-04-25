@@ -37,16 +37,26 @@
   }
 }
 
-/* "View on GitHub" moved to footer; style as solid button on light background */
-.site-footer-github-cta {
-  margin: 0 0 0.9rem 0;
+/* "View on GitHub" on same line as maintenance note (Cayman footer) */
+.site-footer-topline {
+  margin: 0 0 0.75rem 0;
   text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0.35rem 0.5rem;
+  line-height: 1.5;
+}
+.site-footer-topline .site-footer-sep {
+  color: #959fa8;
+  user-select: none;
 }
 .btn-footer {
   display: inline-block;
   margin: 0;
-  padding: 0.55rem 1.15rem;
-  font-size: 0.9rem;
+  padding: 0.45rem 0.9rem;
+  font-size: 0.88rem;
   font-weight: 600;
   line-height: 1.2;
   color: #fff !important;
@@ -55,6 +65,8 @@
   border-radius: 0.35rem;
   text-decoration: none !important;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08);
+  vertical-align: middle;
+  flex: 0 0 auto;
 }
 .btn-footer:hover {
   color: #fff !important;
