@@ -24,14 +24,16 @@ These are **not official**; they are useful when you want narrative, diagrams, o
 - **Version control:** Git (and GitHub/GitLab) for the wiki repo.
 - **Agents:** Whatever you already use (e.g. Claude Code, Codex, or similar) to apply the “schema” and update pages—per your gist-derived `AGENTS.md` / `CLAUDE.md`-style instructions.
 
-## Popular YouTube channels (learning feed)
+## YouTube walkthroughs (setting up a Karpathy-style personal wiki)
 
-These are widely used, high-signal **video sources** you can pull ideas from, watch later, or **summarize into your wiki** as raw or distilled notes. They match this page’s focus: **understanding software, models, and research** in depth—not an exhaustive list.
+These are **community videos** that focus on the **LLM / markdown wiki** pattern from Karpathy’s gist—folders, raw vs compiled wiki, agent instructions (`CLAUDE.md` / similar), and workflows—not general ML or math education. **Titles and quality vary**; this list is a starting set you can vouch for and extend.
 
-- **[Andrej Karpathy](https://www.youtube.com/@AndrejKarpathy)** — Walkthroughs, LLM/AI engineering, and “from scratch” style explanations; pairs naturally with the LLM-wiki gist.
-- **[3Blue1Brown](https://www.youtube.com/@3blue1brown)** — Intuition for math behind ML (vectors, gradient descent, networks) with strong visuals; good to capture as short concept pages in your wiki.
-- **[Yannic Kilcher](https://www.youtube.com/@YannicKilcher)** — Paper and architecture deep dives; useful when you want structured notes and citations to primary papers.
-- **[Two Minute Papers](https://www.youtube.com/@TwoMinutePapers)** — Short research storylines; a fast way to spot topics worth full write-ups in your wiki.
-- **[Computerphile](https://www.youtube.com/@Computerphile)** — Core CS, algorithms, and systems topics that age well in a long-lived notes repo.
+- [Karpathy’s LLM Wiki — full beginner setup guide](https://www.youtube.com/watch?v=iXd0t60YmMw) — walkthrough: layout, agent/schema file, and keeping sources separate from the wiki.
+- [How to build a personal LLM knowledge base (Karpathy’s method)](https://www.youtube.com/watch?v=VRub1w-APTc) — end-to-end “collect → compile → query” using local Markdown and tooling (e.g. Obsidian-style vaults in many of these walkthroughs).
+- [Karpathy’s LLM wiki — goes further than everyone realised](https://www.youtube.com/watch?v=ijBJVzxSBRA) — discussion of the pattern and what people miss when they treat it as “just RAG.”
+- [Build a personal knowledge base (using Andrej …)](https://www.youtube.com/watch?v=PPr3BTSlMwY) — setup-angled overview tied to the same compiled-wiki concept.
+- [Karpathy’s LLM wiki changes everything (LLM wiki / pattern)](https://www.youtube.com/watch?v=04z2M_Nv_Rk) — explainer of why the “stop re-reading the corpus on every question” idea matters for a personal base.
+
+*None of these are from Karpathy’s gist itself;* treat them as **optional supplements** next to the [primary gist](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f).
 
 Add other links here as the community vet them.
