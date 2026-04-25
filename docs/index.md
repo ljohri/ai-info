@@ -1,8 +1,7 @@
 ---
-layout: home
+layout: default
+title: Community Home
 ---
-
-# Community Home
 
 Welcome to our community site.
 
