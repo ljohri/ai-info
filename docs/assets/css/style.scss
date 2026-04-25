@@ -3,6 +3,66 @@
 
 @import "{{ site.theme }}";
 
+/* Tighter hero: less empty space above the fold (Cayman default header padding is large) */
+.page-header {
+  padding: 1.75rem 1.25rem 1.5rem;
+}
+@media screen and (min-width: 42em) {
+  .page-header {
+    padding: 2rem 2rem 1.75rem;
+  }
+}
+@media screen and (min-width: 64em) {
+  .page-header {
+    padding: 2.25rem 3rem 2rem;
+  }
+}
+.page-header .project-name {
+  margin-top: 0;
+  margin-bottom: 0.35rem;
+  font-size: 1.85rem;
+}
+@media screen and (min-width: 42em) {
+  .page-header .project-name {
+    font-size: 2.1rem;
+  }
+}
+.page-header .project-tagline {
+  margin-bottom: 0;
+  font-size: 0.95rem;
+}
+@media screen and (min-width: 42em) {
+  .page-header .project-tagline {
+    font-size: 1.1rem;
+  }
+}
+
+/* "View on GitHub" moved to footer; style as solid button on light background */
+.site-footer-github-cta {
+  margin: 0 0 0.9rem 0;
+  text-align: center;
+}
+.btn-footer {
+  display: inline-block;
+  margin: 0;
+  padding: 0.55rem 1.15rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  line-height: 1.2;
+  color: #fff !important;
+  background-color: #157878;
+  border: 1px solid #12796f;
+  border-radius: 0.35rem;
+  text-decoration: none !important;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08);
+}
+.btn-footer:hover {
+  color: #fff !important;
+  background-color: #0f5f5c;
+  border-color: #0c504d;
+  text-decoration: none !important;
+}
+
 /* Line under personal wiki: About and Join are grouped below the rule */
 .main-content > hr {
   height: 0;
