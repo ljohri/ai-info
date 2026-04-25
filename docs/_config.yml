@@ -3,8 +3,6 @@ description: Knowledge sharing for alumni and peers from the same engineering sc
 # Project site: required so theme CSS/assets resolve at /ai-info/ (not site root)
 url: "https://ljohri.github.io"
 baseurl: "/ai-info"
-# Pin theme + list plugin so GitHub Pages actually loads the remote theme (see pages-themes/cayman README)
-remote_theme: pages-themes/cayman@v0.2.0
-plugins:
-  - jekyll-remote-theme
+# Use the built-in gem on GitHub Pages (more reliable than remote_theme + jekyll-remote-theme)
+theme: jekyll-theme-cayman
 markdown: GFM
