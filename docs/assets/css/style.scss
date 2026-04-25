@@ -1,0 +1,22 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* Line under personal wiki: About and Join are grouped below the rule */
+.main-content > hr {
+  height: 0;
+  border: 0;
+  border-top: 1px solid #d8dee4;
+  margin: 1.25rem 0 1.25rem;
+  max-width: 100%;
+}
+
+/* First paragraph: welcome. Next block is the wiki link (plain <p> with <a> from markdown). */
+.main-content > p + p a {
+  font-weight: 600;
+}
+
+.main-content > hr + ul {
+  margin-top: 0.25rem;
+}

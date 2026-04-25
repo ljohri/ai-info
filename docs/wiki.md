@@ -8,6 +8,7 @@ These are **curated starting points** for setting up a **personal wiki in the sp
 ## Primary source
 
 - **[LLM Wiki (Karpathy gist)](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)** — Original write-up: layered layout (sources vs wiki vs instructions), workflows, and motivation. Copy the pattern and adapt folders and conventions to your stack.
+- **Sample `claude.md` (this repository)** — Starter agent instructions you can copy into your own wiki repo (rename to `CLAUDE.md` if your tool expects that). [Browse on GitHub](https://github.com/ljohri/ai-info/blob/main/claude.md) · [Raw file for copy-paste](https://raw.githubusercontent.com/ljohri/ai-info/main/claude.md)
 
 ## Explainers and implementations (third party)
 
@@ -22,5 +23,15 @@ These are **not official**; they are useful when you want narrative, diagrams, o
 - **Editor / graph:** [Obsidian](https://obsidian.md/) (local Markdown vault; graph and plugins) — optional; the gist is plain files.
 - **Version control:** Git (and GitHub/GitLab) for the wiki repo.
 - **Agents:** Whatever you already use (e.g. Claude Code, Codex, or similar) to apply the “schema” and update pages—per your gist-derived `AGENTS.md` / `CLAUDE.md`-style instructions.
+
+## Popular YouTube channels (learning feed)
+
+These are widely used, high-signal **video sources** you can pull ideas from, watch later, or **summarize into your wiki** as raw or distilled notes. They match this page’s focus: **understanding software, models, and research** in depth—not an exhaustive list.
+
+- **[Andrej Karpathy](https://www.youtube.com/@AndrejKarpathy)** — Walkthroughs, LLM/AI engineering, and “from scratch” style explanations; pairs naturally with the LLM-wiki gist.
+- **[3Blue1Brown](https://www.youtube.com/@3blue1brown)** — Intuition for math behind ML (vectors, gradient descent, networks) with strong visuals; good to capture as short concept pages in your wiki.
+- **[Yannic Kilcher](https://www.youtube.com/@YannicKilcher)** — Paper and architecture deep dives; useful when you want structured notes and citations to primary papers.
+- **[Two Minute Papers](https://www.youtube.com/@TwoMinutePapers)** — Short research storylines; a fast way to spot topics worth full write-ups in your wiki.
+- **[Computerphile](https://www.youtube.com/@Computerphile)** — Core CS, algorithms, and systems topics that age well in a long-lived notes repo.
 
 Add other links here as the community vet them.
