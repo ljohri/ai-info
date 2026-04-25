@@ -1,7 +1,3 @@
-# Community Home
+# Community Site
 
-Welcome to our community site.
-
-## Sections
-- [About](about.md)
-- [How to Join](join.md)
+This repository contains the source for the community website published via GitHub Pages.
