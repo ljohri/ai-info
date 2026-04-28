@@ -6,16 +6,15 @@ permalink: /pan-iit-ai-group.html
 
 # PAN IIT AI Group
 
-Resources from PAN IIT AI Group sessions: YouTube recordings and presentation materials.
+Resources from PAN IIT AI Group sessions. Each session lists the recording and its slides together.
 
-## Presentations
+## Sessions
 
-- **[Fine Tuning Small Language Models](assets/files/fine-tuning-small-language-models.pdf)** — Presentation slides (PDF)
+### Fine Tuning Small Language Models
 
-## YouTube Videos
-
-<!-- Add session recording links below as they become available -->
+- [Slides (PDF)](assets/files/fine-tuning-small-language-models.pdf)
+- Recording: <!-- add YouTube link here -->
 
 ---
 
-*More resources will be added as sessions are recorded and materials are shared.*
+*More sessions will be added as recordings and materials become available.*
