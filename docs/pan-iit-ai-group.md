@@ -13,7 +13,7 @@ Resources from PAN IIT AI Group sessions. Each session lists the recording and i
 ### Fine Tuning Small Language Models
 
 - [Slides (PDF)](assets/files/fine-tuning-small-language-models.pdf)
-- Recording: <!-- add YouTube link here -->
+- [Recording](https://youtu.be/ul9dONg-3mM)
 
 ---
 

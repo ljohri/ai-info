@@ -26,7 +26,7 @@ These are **not official**; they are useful when you want narrative, diagrams, o
 
 ## YouTube walkthroughs (setting up a Karpathy-style personal wiki)
 
-These are **community videos** that focus on the **LLM / markdown wiki** pattern from Karpathy’s gist—folders, raw vs compiled wiki, agent instructions (`AGENTS.md` / `CLAUDE.md` in your own vault), and workflows—not general ML or math education. You can line that up with this repo’s **[`claude.md`](https://github.com/ljohri/ai-info/blob/main/claude.md)**. **Titles and quality vary**; this list is a starting set you can vouch for and extend.
+These are **community videos** that focus on the **LLM / markdown wiki** pattern from Karpathy’s gist—folders, raw vs compiled wiki, agent instructions (`AGENTS.md` / `CLAUDE.md` in your own vault), and workflows. You can line that up with this repo’s **[`claude.md`](https://github.com/ljohri/ai-info/blob/main/claude.md)**. 
 
 - [Karpathy’s LLM Wiki — full beginner setup guide](https://www.youtube.com/watch?v=iXd0t60YmMw) — walkthrough: layout, agent/schema file, and keeping sources separate from the wiki.
 - [How to build a personal LLM knowledge base (Karpathy’s method)](https://www.youtube.com/watch?v=VRub1w-APTc) — end-to-end “collect → compile → query” using local Markdown and tooling (e.g. Obsidian-style vaults in many of these walkthroughs).
