@@ -5,6 +5,11 @@ title: Personal wiki (Karpathy-style)
 
 These are **curated starting points** for setting up a **personal wiki in the spirit of Andrej Karpathy’s “LLM wiki” idea**: mostly **plain Markdown on disk**, **git** for history, **raw sources** kept separate from **synthesized wiki pages**, and an **agent-oriented “schema” file** (instructions for how the wiki is structured and maintained)—often with a coding agent or LLM helping **compile** raw material into linked pages rather than relying on classic RAG over the same corpus on every query. **This repository** includes a starting [**`claude.md`**](https://github.com/ljohri/ai-info/blob/main/claude.md) at the repo root (not under `docs/`) you can open or copy from GitHub.
 
+## Claude Code
+
+- **[Claude Code — Optimal Usage](claude-code-usage.html)** — Workflow practices, CLAUDE.md tips, `claude -p` patterns, and curated YouTube / written resources.
+- **[`claude -p` for Rego Policy Generation](claude-p-rego.html)** — Using Claude Code's print/pipe mode to generate OPA Rego from natural language prompts, with system-specific constraints. Research in progress.
+
 ## Primary source
 
 - **[LLM Wiki (Karpathy gist)](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)** — Original write-up: layered layout (sources vs wiki vs instructions), workflows, and motivation. Copy the pattern and adapt folders and conventions to your stack.
