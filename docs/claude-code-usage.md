@@ -8,7 +8,9 @@ permalink: /claude-code-usage.html
 
 A curated guide to getting the most out of Claude Code, the AI coding agent that lives in your terminal. Covers workflow practices, key CLI patterns, and pointers to the best community resources.
 
-See also: [Using `claude -p` to generate Rego policies](claude-p-rego.html)
+From the community: [X thread on Claude Code usage tips](https://x.com/suryanshti777/status/2048099696607220213?s=46&t=2WXE4SbxL2nXKTPv5FnM2A)
+
+See also: [`claude -p` — Print & Pipe Mode (deep-dive)](claude-p.html)
 
 ---
 
@@ -129,4 +131,4 @@ cat deploy.log | claude -p "Extract all error codes as JSON array" \
   --output-format json > errors.json
 ```
 
-For Rego / OPA policy generation specifically, see the dedicated page: [claude -p for Rego Policy Generation](claude-p-rego.html).
+For a full deep-dive on flags, patterns, and CI/CD integration, see: [`claude -p` — Print & Pipe Mode](claude-p.html).
